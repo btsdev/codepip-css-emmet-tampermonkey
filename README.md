@@ -10,9 +10,9 @@ So far, I've only tested on Windows 10 with the Chrome browser.
 ## Usage
 With this snippet enabled, you can use the tab key to expand emmet CSS abbreviations while playing the Flexbox Froggy Pro game.
 
-You may want to adjust the matching whitelist urls for the user snippet to have it run on other games that use CSS inputs. By default it is only targetting the flexbox-froggy and flexbox-froggy-pro game.
+You may want to adjust the matching whitelist urls for the user snippet to have it run on other games that use CSS inputs. By default it is only targetting the Flexbox Froggy and Flexbox Froggy Pro games.
 
-Note, that I've only tested it on the Flex Froggy and Flexbox Froggy Pro games so far.
+Note, that I've only tested it on the Flexbox Froggy and Flexbox Froggy Pro games so far. It might work just fine on the other CSS games though.
 
 ## How this was built
 I'm merely injecting and using the expand and extract functionality from the [emmet](https://github.com/emmetio/emmet) npm package (which I used [esbuild](https://www.npmjs.com/package/esbuild) to make browser-ready) as part of the user snippet to enable the following code snippet to work:
