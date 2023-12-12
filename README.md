@@ -15,7 +15,7 @@ You may want to adjust the matching whitelist urls for the user snippet to have 
 Note, that I've only tested it on the Flexbox Froggy Pro game so far.
 
 ## How this was built
-I'm merely injecting and using the expand and extract functionality from the emmet npm package (which I used to esbuild to make browser-ready) as part of the user snippet to enable the following code snippet to work:
+I'm merely injecting and using the expand and extract functionality from the [emmet](https://github.com/emmetio/emmet) npm package (which I used [esbuild](https://www.npmjs.com/package/esbuild) to make browser-ready) as part of the user snippet to enable the following code snippet to work:
 
 ```js
 // define a handler
