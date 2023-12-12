@@ -4,7 +4,7 @@
 // @version      2023-12-12
 // @description  Add CSS emmet support to the css games (like flexbox-froggy-pro)
 // @author       btsdev
-// @match        https://codepip.com/games/flexbox-froggy-pro/
+// @match        https://codepip.com/games/flexbox-froggy*/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=codepip.com
 // @grant        none
 // ==/UserScript==
